@@ -27,7 +27,7 @@ To enable it just add:
 
 ```
 @app.route('/introspect')
-def introspect
+def introspect()
     return app.current_request.to_dict()
 ```
 
